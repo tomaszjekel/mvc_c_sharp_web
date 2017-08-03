@@ -26,6 +26,9 @@ namespace mvc
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/bundles/user").Include(
+                      "~/Scripts/homeJs/user.js"));
         }
     }
 }
